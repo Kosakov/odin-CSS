@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Display", sans-serif;
+    line-height: 1.5em;
+    
+}
+
+a{
+    color:inherit;
+    text-decoration:none
+}
+
+.site-header, .site-main{
+    background-color: #1f2937;
+    color: #f9f1f8;
+}
+
+
+.site-header{
+    width: 100%;
+    height: 7em;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.site-header p{
+    font-size: 24px;
+    color: #f9f2f8;
+    font-weight: 700;
+    flex:1 1 auto;
+    padding-top: 0.5em;
+    
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+}
+
+.navigation a{
+    padding-top: 1em;
+    margin-right: 2em;
+
+}
+
+
+
+.section-one{
+    padding :40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.section-one h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1em;
+}
+
+.section-one p{
+    font-size: 18px;
+}
+
+#headingText{
+    display: flex;
+    flex-flow: column wrap;
+    padding-right:30px;
+}
+
+.section-one a{
+    background-color: #3882f6;
+    border: 1.5px solid #3882f6;
+    width: 80px;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.section-two{
+    background-color: #FFFFFF;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-two h2{
+text-align: center;
+flex: 1;
+margin-top: 60px;
+}
+
+.tile-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}.miniTile{
+    border:2px solid #3882f6;
+    height: 165px;
+    border-radius: 10px;
+
+}
+
+
+.tile1{
+    margin-right: 55px;
+}
+
+.tile2{
+    margin-right: 55px;
+}
+
+.tile3{
+    margin-right: 55px;
+}
+
+
