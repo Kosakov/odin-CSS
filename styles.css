@@ -92,38 +92,35 @@ a{
     color: #1f2937;
     display: flex;
     flex-direction: column;
+    height: 500px;
 
 }
 
 .section-two h2{
 text-align: center;
-flex: 1;
 margin-top: 60px;
+margin-bottom: 60px;
+
 }
 
 .tile-container{
-    margin-top: 60px;
     display: flex;
     justify-content: center;
 
 }.miniTile{
-    border:2px solid #3882f6;
+    border:4px solid #3882f6;
     height: 165px;
+    width: 160px;
     border-radius: 10px;
 
 }
 
 
-.tile1{
-    margin-right: 55px;
-}
-
-.tile2{
-    margin-right: 55px;
-}
-
-.tile3{
+.tile1, .tile2, .tile3{
     margin-right: 55px;
 }
 
 
+.section-three{
+    background-color: #E5E7EB;
+}
